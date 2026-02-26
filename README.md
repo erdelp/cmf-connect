@@ -11,6 +11,9 @@ Just a simple binary to help me connect my bluetooth headphones on 42 Paris mach
 
 ```chmod +x /home/$user/bin/cmf-connect```
 
-and then
+and then *after putting your headphones/earbuds in pairing mode*
 
 ```cmf-connect```
+
+
+PS: Why cmf-connect just because my 
