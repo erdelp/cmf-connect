@@ -1,19 +1,19 @@
 Just a simple binary to help me connect my bluetooth headphones on 42 Paris machines, which has an awfully crowded bluetooth network.
 
 
--Change $MAC and $DEVICE_NAME
+1. Change $MAC and $DEVICE_NAME
 
--Add to default path by
+2. Add to default path
 
 ```mv cmf-connect /home/$user/bin/```
 
--Obviously
+3. Obviously
 
 ```chmod +x /home/$user/bin/cmf-connect```
 
-and then *after putting your headphones/earbuds in pairing mode*
+4. then *after putting your headphones/earbuds in pairing mode*
 
 ```cmf-connect```
 
 
-PS: Why cmf-connect just because my 
+PS: Why cmf-connect ? Just because thatś my earbud brand lol
