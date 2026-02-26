@@ -1,8 +1,9 @@
 #!/bin/bash
 
-MAC="2C:BE:EE:6F:63:AC"
+MAC="XX:XX:XX:XX:XX:XX"
+DEVICE_NAME="DEVICE_NAME"
 
-echo "🎧 Forcing connection to CMF Buds Pro 2..."
+echo "🎧 Forcing connection to $DEVICE_NAME..."
 
 # 1. Disconnect first to clear any ghost connections
 bluetoothctl disconnect $MAC > /dev/null 2>&1
@@ -22,7 +23,7 @@ CARD=$(pactl list cards short | grep -i "bluez_card" | awk '{print $2}')
 if [ -n "$CARD" ]; then
     echo "🎵 Forcing A2DP audio profile on $CARD..."
     pactl set-card-profile "$CARD" a2dp-sink > /dev/null 2>&1
-    echo "✅ Success! Your earbuds should be playing audio now."
+    echo "✅ Success! Your earbuds/headphones should be playing audio now."
 else
     echo "⚠️ Connected to Bluetooth, but couldn't detect the audio card. You may need to select them in Sound Settings."
 fi
