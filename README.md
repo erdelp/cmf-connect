@@ -3,13 +3,15 @@ Just a simple binary to help me connect my bluetooth headphones on 42 Paris mach
 
 1. Change $MAC and $DEVICE_NAME
 
-2. Add to default path
+2. Add to 42 default path
 
-```mv cmf-connect /home/$user/bin/```
+```mkdir /home/$USER/bin/```
+
+```mv cmf-connect /home/$USER/bin/```
 
 3. Obviously
 
-```chmod +x /home/$user/bin/cmf-connect```
+```chmod +x /home/$USER/bin/cmf-connect```
 
 4. then *after putting your headphones/earbuds in pairing mode*
 
