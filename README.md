@@ -1,6 +1,8 @@
 Just a simple binary to help me connect my bluetooth headphones on 42 Paris machines, which has an awfully crowded bluetooth network.
 
 
+Find your device MAC ADDRESS (by looking at it on your phone for example)
+
 1. Change $MAC and $DEVICE_NAME
 
 2. Add to 42 default path
